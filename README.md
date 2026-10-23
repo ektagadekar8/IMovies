@@ -85,7 +85,6 @@ git clone https://github.com/ektagadekar8/IMovies.git
 cd IMovies
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
 
 ### 2. Configure the backend
 
