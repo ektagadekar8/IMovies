@@ -8,6 +8,14 @@ IMovies is a full-stack web development project designed to demonstrate frontend
 
 The application provides a movie browsing interface with a booking form. Booking information is validated by the backend and stored in MongoDB Atlas.
 
+## 🌐 Live Demo
+
+**Live Website:** https://i-movies-three.vercel.app/
+
+**Backend API:** https://imovies-ur5f.onrender.com
+
+The frontend is deployed on Vercel, the backend is hosted on Render, and booking data is stored in MongoDB Atlas.
+
 ## ✨ Features
 
 - **Movie Listing:** Displays movies retrieved from MongoDB.
