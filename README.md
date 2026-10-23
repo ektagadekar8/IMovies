@@ -207,7 +207,6 @@ The following features could be added in future versions:
 - Booking confirmation with a unique reference number
 - Movie posters and trailer integration
 - Admin dashboard for managing movies and bookings
-- Deployment to a public hosting platform
 
 ## 🎯 Learning Outcomes
 
