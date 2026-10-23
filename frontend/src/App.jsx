@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import "./App.css";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const movieDetails = {
   "Interstellar": {
@@ -52,7 +53,7 @@ const [showDate, setShowDate] = useState("");
 const [movies, setMovies] = useState([]);
 
 useEffect(() => {
-  fetch("https://imovies-ur5f.onrender.com/api/movies")
+  fetch(`${API_URL}/api/movies`)
     .then((response) => {
       if (!response.ok) {
         throw new Error("Failed to load movies");
@@ -83,7 +84,7 @@ async function handleBooking(event) {
   event.preventDefault();
 
   try {
-    const response = await fetch("https://imovies-ur5f.onrender.com/api/bookings", {
+    const response = await fetch(`${API_URL}/api/bookings`,  {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
