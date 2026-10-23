@@ -52,7 +52,7 @@ const [showDate, setShowDate] = useState("");
 const [movies, setMovies] = useState([]);
 
 useEffect(() => {
-  fetch("http://localhost:5000/api/movies")
+  fetch("https://imovies-ur5f.onrender.com/api/movies")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Failed to load movies");
@@ -83,7 +83,7 @@ async function handleBooking(event) {
   event.preventDefault();
 
   try {
-    const response = await fetch("http://localhost:5000/api/bookings", {
+    const response = await fetch("https://imovies-ur5f.onrender.com/api/bookings", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
