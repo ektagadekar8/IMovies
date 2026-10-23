@@ -49,7 +49,7 @@ IMovies/
 │   ├── server.js
 │   ├── Booking.js
 │   ├── Movie.js          # If created separately
-│   ├── .env               # Private configuration
+│   ├── .env.example       # Example configuration (no real secrets)
 │   └── package.json
 │
 ├── frontend/
