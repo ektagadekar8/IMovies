@@ -81,7 +81,7 @@ Install the following before running the project:
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ektagadekar8/IMovies.git
 cd IMovies
 ```
 
@@ -231,4 +231,4 @@ Project: IMovies — MERN Stack Movie Ticket Booking System
 
 ## 📄 License
 
-This project was developed for educational and academic purposes. A license can be added if the project is distributed publicly.
+This project was developed for educational and academic purposes as part of a B.Tech Computer Science project.
