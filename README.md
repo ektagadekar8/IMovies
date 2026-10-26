@@ -8,6 +8,14 @@ IMovies is a full-stack web development project designed to demonstrate frontend
 
 The application provides a movie browsing interface with a booking form. Booking information is validated by the backend and stored in MongoDB Atlas.
 
+## 🌐 Live Demo
+
+**Live Website:** https://i-movies-three.vercel.app/
+
+**Backend API:** https://imovies-ur5f.onrender.com
+
+The frontend is deployed on Vercel, the backend is hosted on Render, and booking data is stored in MongoDB Atlas.
+
 ## ✨ Features
 
 - **Movie Listing:** Displays movies retrieved from MongoDB.
@@ -41,7 +49,7 @@ IMovies/
 │   ├── server.js
 │   ├── Booking.js
 │   ├── Movie.js          # If created separately
-│   ├── .env               # Private configuration
+│   ├── .env.example       # Example configuration (no real secrets)
 │   └── package.json
 │
 ├── frontend/
@@ -73,11 +81,10 @@ Install the following before running the project:
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ektagadekar8/IMovies.git
 cd IMovies
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
 
 ### 2. Configure the backend
 
@@ -199,7 +206,6 @@ The following features could be added in future versions:
 - Booking confirmation with a unique reference number
 - Movie posters and trailer integration
 - Admin dashboard for managing movies and bookings
-- Deployment to a public hosting platform
 
 ## 🎯 Learning Outcomes
 
@@ -223,4 +229,4 @@ Project: IMovies — MERN Stack Movie Ticket Booking System
 
 ## 📄 License
 
-This project was developed for educational and academic purposes. A license can be added if the project is distributed publicly.
+This project was developed for educational and academic purposes as part of a B.Tech Computer Science project.
