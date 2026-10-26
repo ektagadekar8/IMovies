@@ -26,6 +26,21 @@ const bookingSchema = new mongoose.Schema(
       type: Date,
       required: true,
     },
+    showTime: {
+      type: String,
+      required: true,
+      default: "06:00 PM",
+    },
+    seats: {
+      type: [String],
+      required: true,
+      validate: {
+        validator: function (seats) {
+          return seats.length === this.tickets;
+        },
+        message: "Number of seats must match the number of tickets.",
+      },
+    },
   },
   { timestamps: true }
 );

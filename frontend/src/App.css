@@ -589,3 +589,38 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
+/* Authentication popup */
+.auth-switch-btn {
+  background: none;
+  border: none;
+  color: #e50914;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: inherit;
+  padding: 4px;
+}
+
+.auth-switch-btn:hover {
+  text-decoration: underline;
+}
+
+.booking-modal > h2 {
+  margin-bottom: 10px;
+}
+
+.booking-modal > p {
+  color: #b8b8b8;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.booking-form input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.booking-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
